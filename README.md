@@ -1,4 +1,4 @@
-# Infinite Dice Roller 🎲✨
+# Dice Roller 🎲✨
 
 An interactive command-line Python utility that allows users to simulate rolling two dice continuously in real time. Designed with user control in mind, the program continuously generates randomized results until explicitly instructed to stop.
 
