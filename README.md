@@ -4,6 +4,8 @@
 
 A fun, interactive Python command-line utility that simulates rolling a pair of six-sided dice repeatedly until the player decides to call it quits!
 
+
+
 🎨 Visual Preview
 
        ____       ____
@@ -13,6 +15,10 @@ A fun, interactive Python command-line utility that simulates rolling a pair of 
     \   /  /   \   /  /
      \ /  /     \ /  /
       \/__/      \/__/
+
+
+
+
 
 
 ✨ Features
@@ -32,6 +38,9 @@ Prerequisites
 Make sure you have Python 3.x installed on your system. You can verify by running:
 
 python --version
+
+
+
 
 
 
