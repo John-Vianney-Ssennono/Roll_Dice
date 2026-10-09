@@ -1,20 +1,35 @@
 import random
 
+
 def roll_dice():
-    print("Welcome to the Dice Roller! \n")
-    
+    print("=" * 40)
+    print("🎲  WELCOME TO THE INFINITE DICE ROLLER  🎲")
+    print("=" * 40)
+
     while True:
-        user_choice = input("Do you want to roll the dice? (y/n): ").strip().lower()
-        
-        if user_choice == 'y':
+        user_input = input("\nRoll the dice? (Y/N): ").strip()
+
+        if user_input in ["y", "Y"]:
             die1 = random.randint(1, 6)
             die2 = random.randint(1, 6)
-            print(f"You rolled a {die1} and a {die2} (Total: {die1 + die2})\n")
-        elif user_choice == 'n':
-            print("\n Thanks for playing! Goodbye!\n")
+
+            print("\nRolling...")
+            print(f"🎲 Die 1: {die1}")
+            print(f"🎲 Die 2: {die2}")
+            print(f"✨ Total: {die1 + die2}")
+
+            if die1 == die2:
+                print("🎉 DOUBLES!")
+
+        elif user_input in ["n", "N"]:
+            print("\nThanks for playing! Goodbye! 👋")
             break
+
         else:
-            print("Invalid input! Please enter 'y' or 'n'.\n")
+            print("❌ Invalid input. Please enter 'Y' to roll or 'N' to stop.")
+
 
 if __name__ == "__main__":
     roll_dice()
+
+
