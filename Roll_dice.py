@@ -1,16 +1,7 @@
-Run the script:
-
-python dice_roller.py
-
-
-💻 Sample Code
-
-Here is a simple implementation of the project logic:
-
 import random
 
 def roll_dice():
-    print("🎲 Welcome to the Infinite Dice Roller! 🎲\n")
+    print("Welcome to the Infinite Dice Roller! \n")
     
     while True:
         user_choice = input("Do you want to roll the dice? (y/n): ").strip().lower()
